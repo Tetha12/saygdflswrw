@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: palevioletred;
+        }
+
+        .container {
+            background-color: aliceblue;
+            width: 70%;
+            margin: auto;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: -1px -1px 35px 1px rgba(0,0,0,0.45);
+-webkit-box-shadow: -1px -1px 35px 1px rgba(0,0,0,0.45);
+-moz-box-shadow: -1px -1px 35px 1px rgba(0,0,0,0.45);
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input {
+            background-color: palevioletred;
+            border: none;
+            width: 70px;
+            padding: 5px;
+            border-radius: 50px;
+            color: white;
+            transition: 0.2s all;
+        }
+        input:hover {
+            background-color: white;
+            color: palevioletred;
+            box-shadow: -1px -1px 35px 1px rgba(0,0,0,0.45);
+-webkit-box-shadow: -1px -1px 35px 1px rgba(0,0,0,0.45);
+-moz-box-shadow: -1px -1px 35px 1px rgba(0,0,0,0.45);
+        }
+
+    img {
+        width: 100px;
+        border-radius: 100px;
+    }
+
+    .pesan-kedua,.pesan-ketiga, .pesan-keempat , .pesan-kelima {
+        display: none;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- Pertama -->
+    <div class="container pesan-pertama">
+        <img src="anak kecil.png" alt="">
+        <div class="isi-pesan">
+            <p>Hai Filuss Selamat Pagii👋</p>
+        </div>
+        <div class="button">
+            <input type="button" value="Lanjut" id="lanjut1">
+        </div>
+    </div>
+    <!-- Kedua -->
+    <div class="container pesan-kedua">
+        <img src="anak kecil.png" alt="">
+        <div class="isi-pesan">
+            <p>Semnagat terus yaa jalani harii😁</p>
+        </div>
+        <div class="button">
+            <input type="button" value="Kembali" id="kembali2">
+            <input type="button" value="Lanjut" id="lanjut2">
+        </div>
+    </div>
+    <!-- Ketiga -->
+    <div class="container pesan-ketiga">
+        <img src="anak kecil.png" alt="">
+        <div class="isi-pesan">
+            <p>Selamat Hari Minggu jugaa, Jgn lupa ke gereja yaa😊</p>
+        </div>
+        <div class="button">
+            <input type="button" value="Kembali" id="kembali3">
+            <input type="button" value="Lanjut" id="lanjut3">
+        </div>
+    </div>
+    <!-- Keempat -->
+    <div class="container pesan-keempat">
+        <img src="1b8dfef4e99f1dc08941256e8e3a3363.jpg" alt="">
+        <div class="isi-pesan">
+            <h3>Roma 12:11</h3>
+            <p>Janganlah hendaknya kerajinanmu kendor, biarlah rohmu menyala-nyala dan layanilah Tuhan.</p>
+        </div>
+        <div class="button">
+            <input type="button" value="Kembali" id="kembali4">
+            <input type="button" value="Lanjut" id="lanjut4">
+        </div>
+    </div>
+    <!-- Keempat -->
+    <div class="container pesan-kelima">
+        <img src="anak kecil.png" alt="">
+        <div class="isi-pesan">
+            <p>Makasih ya udah Buka <br>
+                Semangat jalani hari harinya🔥🔥 <br>
+                God Bless U😇
+            </p>
+        </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
